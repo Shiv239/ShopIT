@@ -1,0 +1,39 @@
+/* AUTHOR: Tanvi Pruthi*/
+
+.col-md-4 {
+    margin-bottom: 30px;
+}
+
+.profile-card {
+    /*padding: 30px;*/
+    cursor: pointer;
+    margin-top: 10%;
+    margin-bottom: 35%;
+}
+
+.col-md-4 {
+    margin: auto;
+}
+
+.img-profile {
+    position: center;
+    border: solid 6px transparent;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.display-info {
+    text-align: center;
+}
+
+.info {
+    margin-left: auto;
+}
+
+.card{
+    margin: auto;
+}
+.footer-user{
+    margin-top:10%;
+}

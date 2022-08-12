@@ -1,0 +1,12 @@
+/* Author: Lavita Pereira */
+@media(max-width:768px) {
+    .mybtn1 {
+        width: 100%;
+    }
+}
+
+.productFormLabel{
+    float: left;
+    margin-left: auto;
+    margin-bottom: 0.5rem;
+}

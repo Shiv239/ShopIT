@@ -1,0 +1,65 @@
+/* AUTHOR: Tanvi Pruthi*/
+
+.bg-image-login {
+    background-image: url("../Register/static/register.jpg");
+    height: 150%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+}
+
+.logo-image {
+    margin-left: 47%;
+    margin-right: 45%;
+    margin-bottom: 1%;
+    color: darkred;
+}
+
+.label-css-1 {
+    margin-top: 5%;
+}
+
+@media (min-width: 400px) {
+    .card-border-password {
+        margin: auto;
+    }
+}
+
+@media (min-width: 576px) {
+    .card-border-password {
+        margin: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-border-password {
+        margin: auto;
+        padding-left: 30%;
+        padding-right: 30%;
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-border-password {
+        margin: auto;
+        padding-left: 30%;
+        padding-right: 30%;
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-border-password {
+        margin: auto;
+        padding-left: 30%;
+        padding-right: 30%;
+        padding-top: 20px;
+
+    }
+}
+.display-label{
+    float: left;
+}
+
+

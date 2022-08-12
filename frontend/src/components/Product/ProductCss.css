@@ -1,0 +1,128 @@
+/* Author: Lavita Pereira */
+.card-img-top1 {
+    width: 100%;
+    height: 30vw;
+    object-fit: contain;
+}
+
+@media (max-width: 767px) {
+    .card-img-top1 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.cardbrand1 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* text-align: left; */
+    font-size: 20px;
+    margin-top: -5px;
+}
+
+.card-title1 {
+    /* width: 300px; */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* text-align: left; */
+    margin-top: -2px;
+}
+
+.card-body1 .price1 {
+    /* text-align: left; */
+    margin-top: -5px;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.productDetails {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+@media (min-width: 768px) {
+    .productDetails {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 30px 0;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 50px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+}
+
+.productDetails .big-img {
+    max-width: 500px;
+    min-width: 290px;
+    overflow: hidden;
+    margin: 25px;
+}
+
+.big-img img {
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+
+    display: block;
+    object-fit: contain;
+}
+
+.productDetails .box {
+    max-width: 500px;
+    min-width: 290px;
+    margin: 25px;
+    text-align: justify;
+}
+
+.productDetails .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.box.row h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.box.row span {
+    color: crimson;
+}
+
+.box p {
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.box .cart {
+    background: rgb(241, 146, 162);
+    color: white;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 25px;
+    margin-top: 15px;
+    border: 1px solid pink;
+}
+
+.box .wishlist {
+    margin-left: 10px;
+    background: white;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 25px;
+    margin-top: 15px;
+    border: 1px solid rgb(206, 200, 200);
+}
+
+.box .wishlist:hover {
+    border-color: black;
+}
